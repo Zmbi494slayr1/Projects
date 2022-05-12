@@ -1,0 +1,35 @@
+var MX
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  MX = mouseX
+  background(220);
+  noStroke()
+  fill(20)
+  arc(200,200,350,350,radians(270),radians(90))
+  fill(250)
+  arc(200,200,350,350,radians(90),radians(270))
+  arc(200,113,175,175,radians(270),radians(90))
+  fill(20)
+  arc(200,288,175,175,radians(90),radians(270))
+  ellipse(215,110,50)
+  fill(250)
+  ellipse(215,285,50)
+  
+  if(MX>200){noStroke()
+  fill(250)
+  arc(200,200,350,350,radians(270),radians(90))
+  fill(20)
+  arc(200,200,350,350,radians(90),radians(270))
+  arc(200,113,175,175,radians(270),radians(90))
+  fill(250)
+  arc(200,288,175,175,radians(90),radians(270))
+  ellipse(215,110,50)
+  fill(20)
+  ellipse(215,285,50)
+    
+  }
+  
+}
