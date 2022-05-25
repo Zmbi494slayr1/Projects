@@ -1,0 +1,49 @@
+var ARC
+var MX
+function setup() {
+  createCanvas(400, 400);
+  ARC = radians
+}
+
+function draw() {
+MX = mouseX
+  fill(250, 236, 42)
+  arc(160,145,35,10,ARC(180),ARC(0))
+  background(220)
+  fill(0)
+    text(mouseX + "," + mouseY, 50, 50);
+    text(" x- "+mouseX+"  y - " +mouseY,20, 20)
+  
+  fill(250, 236, 42)
+
+  strokeWeight(1)
+  ellipse(200,200,200)
+  fill(25)
+  arc(200,220,120,120,radians(0),radians(180),CHORD)
+  fill(209, 199, 61)
+  arc(160,170,30,40,radians(180),radians(0),CHORD)
+  arc(240,170,30,40,radians(180),radians(0),CHORD)
+  noFill()
+  strokeWeight(2)
+  arc(160,149,26,14,ARC(200),ARC(0))
+  arc(240,149,26,14,ARC(180),ARC(340))
+  fill(25)
+  text("hi",200,200)
+  fill(250, 236, 42)
+ 
+  if(MX>200){strokeWeight(1)
+  ellipse(200,200,200)
+  fill(25)
+  arc(200,270,120,120,radians(180),radians(0),CHORD)
+  fill(209, 199, 61)
+  arc(160,170,30,40,radians(180),radians(0),CHORD)
+  arc(240,170,30,40,radians(180),radians(0),CHORD)
+  noFill()
+  strokeWeight(2)
+  arc(160,149,26,14,ARC(200),ARC(0))
+  arc(240,149,26,14,ARC(180),ARC(340))
+  fill(25)
+  text("hi",200,200)
+  fill(250, 236, 42) }
+  
+}
